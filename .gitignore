@@ -2,56 +2,46 @@
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-.Python
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-*.log
 
 # Virtual environments
 venv/
 .venv/
 env/
-.env.local
+ENV/
 
-# TensorFlow / Keras models (large files)
-*.keras
-*.h5
-*.pb
-*.tflite
-saved_model/
-
-# Uploads and results (user data)
-backend/uploads/
-backend/results/
-
-# Node
-node_modules/
-frontend/dist/
-frontend/.vite/
-
-# Environment files
-.env
-.env.*
-!.env.example
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
+# Jupyter
+.ipynb_checkpoints/
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
+# Environment variables
+.env
 
-# Dataset (large — use Git LFS or separate storage)
-dataset/
+# Python cache
+.pytest_cache/
+
+# Large ML files
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Generated outputs
+outputs/forecasts/
+outputs/figures/
+
+# Local data
+data/raw/*.xlsx
+data/raw/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+backend/venv-tf/
+venv-tf/
+backend/venv/
+venv/
