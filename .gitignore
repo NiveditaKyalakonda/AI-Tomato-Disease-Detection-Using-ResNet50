@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.local
+
+# TensorFlow / Keras models (large files)
+*.keras
+*.h5
+*.pb
+*.tflite
+saved_model/
+
+# Uploads and results (user data)
+backend/uploads/
+backend/results/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Dataset (large — use Git LFS or separate storage)
+dataset/

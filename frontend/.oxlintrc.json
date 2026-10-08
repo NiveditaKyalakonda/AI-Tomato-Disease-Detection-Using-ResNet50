@@ -1,0 +1,9 @@
+{
+  "$schema": "https://oxc.rs/schema/oxlintrc.json",
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-undef": "error",
+    "no-console": "off"
+  }
+}
