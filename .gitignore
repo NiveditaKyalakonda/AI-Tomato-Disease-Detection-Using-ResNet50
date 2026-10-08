@@ -45,3 +45,9 @@ backend/venv-tf/
 venv-tf/
 backend/venv/
 venv/
+
+# Dataset
+dataset/
+
+# User uploaded images
+backend/uploads/
